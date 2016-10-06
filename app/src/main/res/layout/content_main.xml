@@ -13,39 +13,53 @@
     tools:context="ck.dev.carmendelparana.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView_4_content_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="121dp"
+        android:layout_weight="0.19"
+        android:onClick="Lanzar_Activity_4k"
+        app:srcCompat="@drawable/ck"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView_kinesio_romi"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_weight="0.15"
+        android:onClick="Lanzar_Activity_Kinesio_Romi"
+        app:srcCompat="@drawable/kinesio_romi"
+        android:layout_below="@+id/imageView7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:layout_marginTop="19dp" />
 
-        <ImageView
-            android:id="@+id/imageView_4_content_main"
-            android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:layout_weight="0.22"
-            android:onClick="Lanzar_Activity_4k"
-            app:srcCompat="@drawable/ck" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="auto"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        android:id="@+id/fab_main"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:layout_weight="0.15"
-            android:onClick="Lanzar_Activity_MCA"
-            app:srcCompat="@drawable/mca" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:onClick="Lanzar_Activity_MCA"
+        app:srcCompat="@drawable/mca"
+        android:layout_below="@+id/imageView_4_content_main"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
 
-        <ImageView
-            android:id="@+id/imageView_kinesio_romi"
-            android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:layout_weight="0.15"
-            android:onClick="Lanzar_Activity_Kinesio_Romi"
-            app:srcCompat="@drawable/kinesio_romi" />
-
-
-    </LinearLayout>
 </RelativeLayout>

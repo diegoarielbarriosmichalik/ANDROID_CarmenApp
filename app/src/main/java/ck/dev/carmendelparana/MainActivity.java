@@ -10,6 +10,7 @@ import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.Gravity;
@@ -60,7 +61,18 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-      
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=" + "ck.dev.carmendelparana");
+                //intent.setPackage("com.facebook.katana");
+                intent.setPackage("com.whatsapp");
+                startActivity(intent);
+            }
+        });
 
     }
 

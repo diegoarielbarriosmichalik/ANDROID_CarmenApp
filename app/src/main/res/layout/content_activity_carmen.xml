@@ -23,13 +23,13 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="393dp"
+            android:layout_height="383dp"
             app:srcCompat="@drawable/carmen2"
             />
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="225dp"
+            android:layout_height="215dp"
             app:srcCompat="@drawable/carmen3"
             />
 
