@@ -36,6 +36,17 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="19dp" />
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:onClick="Lanzar_Activity_MCA"
+        app:srcCompat="@drawable/mca"
+        android:layout_below="@+id/imageView_4_content_main"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,17 +60,40 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp" />
+        android:layout_marginEnd="11dp"
+        android:visibility="visible"/>
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="match_parent"
-        android:layout_height="121dp"
-        android:onClick="Lanzar_Activity_MCA"
-        app:srcCompat="@drawable/mca"
-        android:layout_below="@+id/imageView_4_content_main"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="16dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/fa"
+        app:fabSize="auto"
+        android:id="@+id/fab_4"
+        android:visibility="invisible"
+        android:onClick=""
+        app:backgroundTint="@android:color/background_light"
+        app:elevation="2dp"
+
+        android:layout_alignTop="@+id/fab_main"
+        android:layout_alignLeft="@+id/fab_main"
+        android:layout_alignStart="@+id/fab_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/wa"
+        app:fabSize="auto"
+        android:id="@+id/fab_2"
+        android:visibility="invisible"
+        android:onClick=""
+        app:backgroundTint="@android:color/background_light"
+        app:elevation="2dp"
+
+        android:layout_above="@+id/fab_main"
+        android:layout_alignLeft="@+id/fab_main"
+        android:layout_alignStart="@+id/fab_main"
+        android:layout_marginBottom="12dp" />
 
 </RelativeLayout>

@@ -65,18 +65,50 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab_2);
+                FloatingActionButton fab4 = (FloatingActionButton) findViewById(R.id.fab_4);
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
+                fab2.setVisibility(view.VISIBLE);
+                fab4.setVisibility(view.VISIBLE);
+                fab.setVisibility(view.INVISIBLE);
+            }
+        });
+
+        final FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab_2);
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
                 intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=" + "ck.dev.carmendelparana");
                 //intent.setPackage("com.facebook.katana");
                 intent.setPackage("com.whatsapp");
                 startActivity(intent);
+
+
+
+            }
+        });
+
+        final FloatingActionButton fab4 = (FloatingActionButton) findViewById(R.id.fab_4);
+        fab4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=" + "ck.dev.carmendelparana");
+                intent.setPackage("com.facebook.katana");
+               // intent.setPackage("com.whatsapp");
+                startActivity(intent);
+
+
+
             }
         });
 
     }
-
-
 
 
     @Override
@@ -211,9 +243,6 @@ public class MainActivity extends AppCompatActivity
     TextView direccion;
     private boolean gpsVisto;
     private boolean tieneGPS;
-
-
-
 
 
 }

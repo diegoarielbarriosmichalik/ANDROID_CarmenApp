@@ -25,7 +25,7 @@
             android:layout_height="99dp"
             app:srcCompat="@drawable/ck"
             android:id="@+id/imageView_1_Activity_informatica"
-            android:onClick="onClickLlamar4k"
+
             />
     </LinearLayout>
 </RelativeLayout>
