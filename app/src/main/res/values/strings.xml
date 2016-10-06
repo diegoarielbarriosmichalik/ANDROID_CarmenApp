@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Carmen del Paraná</string>
+    <string name="app_name_4k">4k Informática</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_publicitar">Estudio 4k</string>
+    <string name="title_activity_kinesio_romi">Lic. Romina Benítez</string>
+    <string name="title_activity_mcanovedades">MCA Novedades</string>
+    <string name="title_activity_scrolling_prueba">ScrollingActivityPrueba</string>
+    <string name="large_text">
+
+    </string>
+    <string name="title_activity_fragment_prueba">Activity_fragment_prueba</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_scrolling_mcanovedades">MCA Novedades</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="parar_actualizaciones">Parar</string>
+    <string name="iniciar_actualizaciones">Iniciar</string>
+    <string name="title_activity_scrolling_activityprueba">ScrollingActivityprueba</string>
+    <string name="title_activity_escribano">Activity_escribano</string>
+
+</resources>

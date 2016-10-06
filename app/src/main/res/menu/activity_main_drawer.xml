@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_eventos"
+        android:icon="@drawable/ic_menu_eventos"
+        android:title="Eventos Sociales"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_menu_hospedaje"
+        android:title="Hoteles y Hospedajes"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_farmacia"
+        android:icon="@drawable/ic_menu_farmacia"
+        android:title="Farmacias"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_bar"
+        android:title="Restaurantes y Bares"
+        android:checkable="false" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_action_supermercado"
+        android:title="Supermercados / Comercios"
+        android:checkable="false" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_menu_ferreteria"
+        android:title="Ferreterías"
+        android:checkable="false" />
+    <item
+        android:id="@+id/nav_heladeria"
+        android:icon="@drawable/ic_menu_heladeria"
+        android:title="Heladerías"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_informatica"
+        android:icon="@drawable/ic_menu_informatica"
+        android:title="Informática / Electrónica"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Informatica"
+
+        />
+
+    <item
+        android:id="@+id/nav_abogados"
+        android:icon="@drawable/ic_menu_abogados"
+        android:title="Escribanías / Abogados / Contabilidad"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_kinesiologia"
+        android:icon="@drawable/ic_menu_kinesiologia"
+        android:title="GYM / SPA / Kinesiología "
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_GYM"
+        />
+
+    <item
+        android:id="@+id/nav_regaleria"
+        android:icon="@drawable/ic_boutique"
+        android:title="Boutique / Regalería  "
+        android:checkable="false"
+        />
+
+
+    <item
+        android:id="@+id/nav_contructora"
+        android:icon="@drawable/ic_menu_constructora"
+        android:title="Empresas Constructoras"
+        android:checkable="false"
+        />
+
+    <item
+        android:id="@+id/nav_servicios_personales"
+        android:icon="@drawable/ic_menu_servicios_personales"
+        android:title="Servicios Personales"
+        android:checkable="false"
+        />
+
+    <item
+        android:id="@+id/nav_taxi"
+        android:icon="@drawable/ic_menu_taxi"
+        android:title="Servicios de Taxi"
+        android:checkable="false" />
+
+
+    <item
+        android:id="@+id/nav_estaciones"
+        android:icon="@drawable/ic_menu_estaciones"
+        android:title="Estaciones de Servicio"
+        android:checkable="false"
+        />
+
+
+    <item
+        android:id="@+id/nav_pagos"
+        android:icon="@drawable/ic_menu_pagos"
+        android:title="Pago de servicios varios"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/nav_generales"
+        android:icon="@drawable/ic_menu_recarga"
+        android:title="Recarga de Saldo"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Recarga_Saldo"/>
+
+    <item
+        android:id="@+id/nav_publicitar"
+        android:icon="@drawable/ic_menu_publicitar"
+        android:title="Agregar mi empresa"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Publicitar"/>
+
+
+</menu>
+
+
