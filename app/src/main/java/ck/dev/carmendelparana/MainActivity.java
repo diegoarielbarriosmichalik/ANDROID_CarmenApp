@@ -65,19 +65,34 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab_2);
-                FloatingActionButton fab4 = (FloatingActionButton) findViewById(R.id.fab_4);
+
+                FloatingActionButton fab_whatsapp = (FloatingActionButton) findViewById(R.id.fab_whatsapp);
+                FloatingActionButton fab_facebook = (FloatingActionButton) findViewById(R.id.fab_facebook);
                 FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
-                fab2.setVisibility(view.VISIBLE);
-                fab4.setVisibility(view.VISIBLE);
+                FloatingActionButton fab_main_gris = (FloatingActionButton) findViewById(R.id.fab_main_gris);
+
                 fab.setVisibility(view.INVISIBLE);
+                fab_whatsapp.setVisibility(view.VISIBLE);
+                fab_facebook.setVisibility(view.VISIBLE);
+                fab_main_gris.setVisibility(view.VISIBLE);
+
             }
         });
 
-        final FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab_2);
-        fab2.setOnClickListener(new View.OnClickListener() {
+        final FloatingActionButton fab_whatsapp = (FloatingActionButton) findViewById(R.id.fab_whatsapp);
+        fab_whatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                FloatingActionButton fab_whatsapp = (FloatingActionButton) findViewById(R.id.fab_whatsapp);
+                FloatingActionButton fab_facebook = (FloatingActionButton) findViewById(R.id.fab_facebook);
+                FloatingActionButton fab_main_gris = (FloatingActionButton) findViewById(R.id.fab_main_gris);
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
+
+                fab_whatsapp.setVisibility(view.INVISIBLE);
+                fab_facebook.setVisibility(view.INVISIBLE);
+                fab_main_gris.setVisibility(view.INVISIBLE);
+                fab.setVisibility(view.VISIBLE);
 
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
@@ -91,10 +106,20 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        final FloatingActionButton fab4 = (FloatingActionButton) findViewById(R.id.fab_4);
-        fab4.setOnClickListener(new View.OnClickListener() {
+        final FloatingActionButton fab_facebook = (FloatingActionButton) findViewById(R.id.fab_facebook);
+        fab_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                FloatingActionButton fab_whatsapp = (FloatingActionButton) findViewById(R.id.fab_whatsapp);
+                FloatingActionButton fab_facebook = (FloatingActionButton) findViewById(R.id.fab_facebook);
+                FloatingActionButton fab_main_gris = (FloatingActionButton) findViewById(R.id.fab_main_gris);
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
+
+                fab_whatsapp.setVisibility(view.INVISIBLE);
+                fab_facebook.setVisibility(view.INVISIBLE);
+                fab_main_gris.setVisibility(view.INVISIBLE);
+                fab.setVisibility(view.VISIBLE);
 
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
@@ -102,6 +127,27 @@ public class MainActivity extends AppCompatActivity
                 intent.setPackage("com.facebook.katana");
                // intent.setPackage("com.whatsapp");
                 startActivity(intent);
+
+
+
+            }
+        });
+
+        final FloatingActionButton fab_main_gris = (FloatingActionButton) findViewById(R.id.fab_main_gris);
+        fab_main_gris.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                FloatingActionButton fab_whatsapp = (FloatingActionButton) findViewById(R.id.fab_whatsapp);
+                FloatingActionButton fab_facebook = (FloatingActionButton) findViewById(R.id.fab_facebook);
+                FloatingActionButton fab_main_gris = (FloatingActionButton) findViewById(R.id.fab_main_gris);
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_main);
+
+                fab_whatsapp.setVisibility(view.INVISIBLE);
+                fab_facebook.setVisibility(view.INVISIBLE);
+                fab_main_gris.setVisibility(view.INVISIBLE);
+                fab.setVisibility(view.VISIBLE);
+
 
 
 

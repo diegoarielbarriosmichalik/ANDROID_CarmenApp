@@ -53,6 +53,20 @@
         android:clickable="true"
         app:fabSize="auto"
         app:srcCompat="@android:drawable/ic_menu_share"
+        android:id="@+id/fab_main_gris"
+        app:backgroundTint="@color/common_plus_signin_btn_text_light_default"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/fab_main"
+        android:layout_alignLeft="@+id/fab_main"
+        android:layout_alignStart="@+id/fab_main"
+        app:elevation="7dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="auto"
+        app:srcCompat="@android:drawable/ic_menu_share"
         android:id="@+id/fab_main"
         app:backgroundTint="@color/colorPrimaryDark"
         android:layout_marginBottom="15dp"
@@ -69,15 +83,17 @@
         android:clickable="true"
         app:srcCompat="@drawable/fa"
         app:fabSize="auto"
-        android:id="@+id/fab_4"
+        android:id="@+id/fab_facebook"
         android:visibility="invisible"
         android:onClick=""
         app:backgroundTint="@android:color/background_light"
         app:elevation="2dp"
 
-        android:layout_alignTop="@+id/fab_main"
-        android:layout_alignLeft="@+id/fab_main"
-        android:layout_alignStart="@+id/fab_main" />
+        android:layout_alignTop="@+id/fab_whatsapp"
+        android:layout_toLeftOf="@+id/fab_whatsapp"
+        android:layout_toStartOf="@+id/fab_whatsapp"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
@@ -85,15 +101,18 @@
         android:clickable="true"
         app:srcCompat="@drawable/wa"
         app:fabSize="auto"
-        android:id="@+id/fab_2"
+        android:id="@+id/fab_whatsapp"
         android:visibility="invisible"
         android:onClick=""
         app:backgroundTint="@android:color/background_light"
         app:elevation="2dp"
 
-        android:layout_above="@+id/fab_main"
-        android:layout_alignLeft="@+id/fab_main"
-        android:layout_alignStart="@+id/fab_main"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignTop="@+id/fab_main"
+        android:layout_toLeftOf="@+id/fab_main"
+        android:layout_toStartOf="@+id/fab_main" />
+
+
 
 </RelativeLayout>
