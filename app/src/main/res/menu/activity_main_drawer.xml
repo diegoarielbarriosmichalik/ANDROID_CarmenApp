@@ -2,6 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/nav_carmen"
+        android:icon="@drawable/ic_carmen"
+        android:title="Carmen en Fotografías"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Carmen"
+        />
+
+    <item
         android:id="@+id/nav_eventos"
         android:icon="@drawable/ic_menu_eventos"
         android:title="Eventos Sociales"

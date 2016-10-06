@@ -59,6 +59,10 @@
         <activity
             android:name=".Activity_escribano"
             android:label="@string/title_activity_escribano"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_carmen"
+            android:label="@string/title_activity_carmen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

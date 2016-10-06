@@ -145,6 +145,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void Lanzar_Activity_Carmen(MenuItem item) {
+        Intent intent = new Intent(this, Activity_carmen.class);
+        startActivity(intent);
+    }
+
     public void Lanzar_Activity_GYM(MenuItem item) {
         Intent intent = new Intent(this, Activity_GYM.class);
         startActivity(intent);
