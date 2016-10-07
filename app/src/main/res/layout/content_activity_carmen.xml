@@ -21,6 +21,40 @@
             />
 
         <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="303dp"
+            app:srcCompat="@drawable/carmen11"
+            />
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/carmen12"
+            />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            app:srcCompat="@drawable/carmen16"
+            />
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            app:srcCompat="@drawable/carmen17"
+            />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            app:srcCompat="@drawable/carmen10"
+            />
+
+
+        <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="383dp"
@@ -29,7 +63,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="215dp"
+            android:layout_height="228dp"
             app:srcCompat="@drawable/carmen3"
             />
 
@@ -56,7 +90,7 @@
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="match_parent"
-            android:layout_height="290dp"
+            android:layout_height="278dp"
             app:srcCompat="@drawable/carmen7"
             />
 
@@ -71,7 +105,7 @@
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="447dp"
             app:srcCompat="@drawable/carmen9"
             />
 

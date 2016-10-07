@@ -42,7 +42,9 @@
         app:layout_anchorGravity="top|right"
         app:srcCompat="@android:drawable/ic_menu_share"
         app:backgroundTint="@color/colorPrimaryDark"
-        android:layout_gravity="bottom|right" /><![CDATA[
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible"
+        /><![CDATA[
 
 
 
