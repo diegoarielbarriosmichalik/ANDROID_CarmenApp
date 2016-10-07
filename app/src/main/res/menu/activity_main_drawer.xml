@@ -54,7 +54,6 @@
         android:title="Informática / Electrónica"
         android:checkable="false"
         android:onClick="Lanzar_Activity_Informatica"
-
         />
 
     <item
@@ -99,7 +98,6 @@
         android:title="Servicios de Taxi"
         android:checkable="false" />
 
-
     <item
         android:id="@+id/nav_estaciones"
         android:icon="@drawable/ic_menu_estaciones"
@@ -107,11 +105,10 @@
         android:checkable="false"
         />
 
-
     <item
         android:id="@+id/nav_pagos"
         android:icon="@drawable/ic_menu_pagos"
-        android:title="Pago de servicios varios"
+        android:title="Pago de servicios"
         android:checkable="false" />
 
     <item
@@ -122,12 +119,18 @@
         android:onClick="Lanzar_Activity_Recarga_Saldo"/>
 
     <item
+        android:id="@+id/nav_alquileres"
+        android:icon="@drawable/ic_action_alquileres"
+        android:title="Terrenos en venta / Alquileres"
+        android:checkable="false"
+        />
+
+    <item
         android:id="@+id/nav_publicitar"
         android:icon="@drawable/ic_menu_publicitar"
         android:title="Agregar mi empresa"
         android:checkable="false"
         android:onClick="Lanzar_Activity_Publicitar"/>
-
 
 </menu>
 
