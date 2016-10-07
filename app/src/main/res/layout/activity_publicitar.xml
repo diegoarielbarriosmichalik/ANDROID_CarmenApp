@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,10 +8,11 @@
     android:fitsSystemWindows="true"
     tools:context="ck.dev.carmendelparana.Activity_publicitar">
 
-    <android.support.design.widget.AppBarLayout
+    <android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -21,32 +23,44 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_activity_publicitar" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/ck" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/fab_call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
 
-        app:srcCompat="@android:drawable/stat_sys_phone_call"
-        app:backgroundTint="@android:color/holo_red_dark" />
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/map"
+        android:id="@+id/fab_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="?attr/actionMenuTextColor"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_email"
         android:layout_width="wrap_content"
         android:layout_height="64dp"
+        android:layout_gravity="bottom|center_horizontal"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_map"
-        app:layout_anchorGravity="center_vertical|right"
-        android:layout_gravity="bottom|left"
-        app:backgroundTint="?attr/actionMenuTextColor" />
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchorGravity="top|center_horizontal"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="249dp"
-        app:srcCompat="@drawable/ck"
-        android:id="@+id/imageView2" />
 
 </android.support.design.widget.CoordinatorLayout>

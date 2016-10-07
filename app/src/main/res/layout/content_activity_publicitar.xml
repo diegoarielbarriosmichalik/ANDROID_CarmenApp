@@ -13,4 +13,10 @@
     tools:context="ck.dev.carmendelparana.Activity_publicitar"
     tools:showIn="@layout/activity_publicitar">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+    </RelativeLayout>
 </RelativeLayout>

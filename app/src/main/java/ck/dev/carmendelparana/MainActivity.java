@@ -254,11 +254,11 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(this, Activity_publicitar.class);
         startActivity(intent);
     }
-
+/*
     public void Lanzar_4k(MenuItem item) {
         Intent intent = new Intent(this, Activity_4k.class);
         startActivity(intent);
-    }
+    }*/
 
 
     public void onClickLlamarMCA(View v) {
