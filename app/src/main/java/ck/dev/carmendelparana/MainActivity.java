@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void Lanzar_Activity_4k(View view) {
-        Intent intent = new Intent(this, Activity_publicitar.class);
+        Intent intent = new Intent(this, Activity_4k.class);
         startActivity(intent);
 
     }

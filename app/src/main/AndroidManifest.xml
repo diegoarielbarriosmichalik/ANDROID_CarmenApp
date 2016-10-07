@@ -62,7 +62,8 @@
         <activity
             android:name=".Activity_carmen"
             android:label="@string/title_activity_carmen"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity_4k" />
     </application>
 
 </manifest>
