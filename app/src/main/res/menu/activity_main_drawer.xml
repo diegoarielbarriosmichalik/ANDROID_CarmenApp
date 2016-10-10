@@ -60,7 +60,9 @@
         android:id="@+id/nav_abogados"
         android:icon="@drawable/ic_menu_abogados"
         android:title="Escribanías / Abogados / Contabilidad"
-        android:checkable="false" />
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Escribanias"
+        />
 
     <item
         android:id="@+id/nav_kinesiologia"

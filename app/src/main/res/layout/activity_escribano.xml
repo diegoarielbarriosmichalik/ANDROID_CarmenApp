@@ -29,6 +29,26 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:visibility="invisible"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView_Abg_luis_campos_escribanias"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/abog_luis_campos"
+            android:layout_below="@+id/imageView7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/fab_whatsapp"
+            android:layout_weight="0.42" />
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
