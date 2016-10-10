@@ -1,20 +1,10 @@
 package ck.dev.carmendelparana;
 
-import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.location.Criteria;
-import android.location.Location;
-import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.ActivityCompat;
-import android.util.Log;
-import android.view.Gravity;
-import android.view.MenuInflater;
+import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -25,9 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity
@@ -154,6 +142,10 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+
+        Snackbar.make(navigationView, "Nuevos EVENTOS disponibles", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show();
+
     }
 
 
@@ -241,6 +233,11 @@ public class MainActivity extends AppCompatActivity
 
     public void Lanzar_Activity_Carmen(MenuItem item) {
         Intent intent = new Intent(this, Activity_carmen.class);
+        startActivity(intent);
+    }
+
+    public void Lanzar_Activity_Eventos(MenuItem item) {
+        Intent intent = new Intent(this, ActivityEventos.class);
         startActivity(intent);
     }
 

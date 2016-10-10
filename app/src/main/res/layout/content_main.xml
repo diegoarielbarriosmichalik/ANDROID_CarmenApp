@@ -119,7 +119,6 @@
         android:id="@+id/imageView_Abg_luis_campos"
         android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:layout_weight="0.15"
         app:srcCompat="@drawable/abog_luis_campos"
         android:layout_below="@+id/imageView7"
         android:layout_alignParentRight="true"

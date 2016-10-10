@@ -12,8 +12,10 @@
     <item
         android:id="@+id/nav_eventos"
         android:icon="@drawable/ic_menu_eventos"
-        android:title="Eventos Sociales"
-        android:checkable="false" />
+        android:title="Eventos (1)"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Eventos"
+        />
 
     <item
         android:id="@+id/nav_camera"

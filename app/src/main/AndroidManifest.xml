@@ -64,6 +64,7 @@
             android:label="@string/title_activity_carmen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activity_4k" />
+        <activity android:name=".ActivityEventos"></activity>
     </application>
 
 </manifest>
