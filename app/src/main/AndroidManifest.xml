@@ -51,10 +51,7 @@
             android:name=".ScrollingActivity_mcanovedades"
             android:label="@string/title_activity_scrolling_mcanovedades"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ScrollingActivityprueba"
-            android:label="@string/title_activity_scrolling_activityprueba"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Activity_escribano"
             android:label="@string/title_activity_escribano"
@@ -64,7 +61,12 @@
             android:label="@string/title_activity_carmen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activity_4k" />
-        <activity android:name=".ActivityEventos"></activity>
+        <activity android:name=".ActivityEventos">
+
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

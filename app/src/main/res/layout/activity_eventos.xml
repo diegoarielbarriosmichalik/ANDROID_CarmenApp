@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_eventos"
     android:layout_width="match_parent"
@@ -9,21 +10,25 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ck.dev.carmendelparana.ActivityEventos">
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button_play_video"
-        android:visibility="invisible"
-        />
 
-    <VideoView
+    <view
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:id="@+id/youtube_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="Ver video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_youtube"
+        android:layout_below="@+id/youtube_view"
         android:layout_centerHorizontal="true"
-        android:id="@+id/videoView_publicidad" />
+        android:layout_marginTop="11dp" />
 
 </RelativeLayout>
