@@ -257,6 +257,12 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(this, Activity_publicitar.class);
         startActivity(intent);
     }
+
+    public void Lanzar_Activity_Maps(MenuItem item) {
+        Intent intent = new Intent(this, MapsActivity.class);
+        /*Intent intent = new Intent(this, MyLocationListener.class);*/
+        startActivity(intent);
+    }
 /*
     public void Lanzar_4k(MenuItem item) {
         Intent intent = new Intent(this, Activity_4k.class);

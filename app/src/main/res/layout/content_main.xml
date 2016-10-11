@@ -44,7 +44,7 @@
         app:fabSize="auto"
         app:srcCompat="@android:drawable/ic_menu_share"
         android:id="@+id/fab_main_gris"
-        app:backgroundTint="@color/common_plus_signin_btn_text_light_default"
+        app:backgroundTint="@color/colorPrimary"
         android:visibility="invisible"
         android:layout_alignTop="@+id/fab_main"
         android:layout_alignLeft="@+id/fab_main"

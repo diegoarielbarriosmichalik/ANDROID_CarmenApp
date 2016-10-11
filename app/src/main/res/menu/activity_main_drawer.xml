@@ -136,6 +136,13 @@
         android:checkable="false"
         android:onClick="Lanzar_Activity_Publicitar"/>
 
+    <item
+        android:id="@+id/nav_Maps"
+        android:icon="@drawable/ic_menu_publicitar"
+        android:title="Donde estoy?"
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Maps"/>
+
 </menu>
 
 

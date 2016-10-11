@@ -2,14 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ck.dev.carmendelparana">
 
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
-        android:name="com.expocodetech.android.maps.permission.MAPS_RECEIVE"
+        android:name="ck.dev.carmendelparana.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.expocodetech.android.maps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="ck.dev.carmendelparana.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -51,7 +52,6 @@
             android:name=".ScrollingActivity_mcanovedades"
             android:label="@string/title_activity_scrolling_mcanovedades"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Activity_escribano"
             android:label="@string/title_activity_escribano"
@@ -61,12 +61,28 @@
             android:label="@string/title_activity_carmen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activity_4k" />
-        <activity android:name=".ActivityEventos">
+        <activity android:name=".ActivityEventos" />
 
-        </activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+      <!--  <activity android:name=".MyLocationListener"></activity>-->
     </application>
 
 </manifest>
