@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ck.dev.carmendelparana">
 
-
     <permission
         android:name="ck.dev.carmendelparana.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
@@ -82,7 +81,11 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-      <!--  <activity android:name=".MyLocationListener"></activity>-->
+        <!-- <activity android:name=".MyLocationListener"></activity> -->
+        <activity
+            android:name=".ScrollingActivityHoteles"
+            android:label="@string/title_activity_scrolling_hoteles"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

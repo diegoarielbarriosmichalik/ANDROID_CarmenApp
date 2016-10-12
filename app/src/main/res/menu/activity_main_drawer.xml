@@ -21,7 +21,8 @@
         android:id="@+id/nav_camera"
         android:icon="@drawable/ic_menu_hospedaje"
         android:title="Hoteles y Hospedajes"
-        android:checkable="false" />
+        android:checkable="false"
+        android:onClick="Lanzar_Activity_Hoteles" />
 
     <item
         android:id="@+id/nav_farmacia"

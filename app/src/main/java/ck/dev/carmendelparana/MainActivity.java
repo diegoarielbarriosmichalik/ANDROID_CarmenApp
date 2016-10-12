@@ -242,6 +242,10 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(this, ActivityEventos.class);
         startActivity(intent);
     }
+    public void Lanzar_Activity_Hoteles(MenuItem item) {
+        Intent intent = new Intent(this, ScrollingActivityHoteles.class);
+        startActivity(intent);
+    }
 
     public void Lanzar_Activity_GYM(MenuItem item) {
         Intent intent = new Intent(this, Activity_GYM.class);
