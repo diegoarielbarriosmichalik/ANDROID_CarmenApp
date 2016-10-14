@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ck.dev.carmendelparana">
 
-
     <permission
         android:name="ck.dev.carmendelparana.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
@@ -17,7 +16,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <application
+    <application android:name="android.support.multidex.MultiDexApplication">
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -82,7 +81,12 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-      <!--  <activity android:name=".MyLocationListener"></activity>-->
+        <!-- <activity android:name=".MyLocationListener"></activity> -->
+
+        <activity
+            android:name=".ScrollingActivityHoteles"
+            android:label="@string/title_activity_scrolling_hoteles"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

@@ -2,7 +2,10 @@ package ck.dev.carmendelparana;
 
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -21,7 +24,9 @@ public class ActivityEventos extends YouTubeBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_eventos);
 
         youtubepLayerView = (YouTubePlayerView) findViewById(R.id.youtube_view);
