@@ -34,5 +34,9 @@
     <string name="img_descrip">img_descrip</string>
     <string name="title_activity_scrolling_carmen_fotos">Carmen &lt;3</string>
 
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+
 
 </resources>

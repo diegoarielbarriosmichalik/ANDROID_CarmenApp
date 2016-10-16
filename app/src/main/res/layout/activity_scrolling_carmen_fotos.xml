@@ -7,6 +7,6 @@
     android:fitsSystemWindows="true"
     tools:context="ck.dev.carmendelparana.ScrollingActivityCarmenFotos">
 
-    <include layout="@layout/content_scrolling_activity_carmen_fotos" />
+    <!--<include layout="@layout/content_scrolling_activity_carmen_fotos" />-->
 
 </android.support.design.widget.CoordinatorLayout>

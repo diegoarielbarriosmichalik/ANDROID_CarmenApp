@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void Lanzar_Activity_Carmen(MenuItem item) {
-        Intent intent = new Intent(this, ScrollingActivityCarmenFotos.class);
+        Intent intent = new Intent(this, PruebasFotos_2.class);
         startActivity(intent);
     }
 

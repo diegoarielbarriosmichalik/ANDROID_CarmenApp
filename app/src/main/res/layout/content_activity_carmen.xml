@@ -13,14 +13,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
+       <!-- <ImageView
             android:id="@+id/mImageView1"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/img_descrip"
             android:layout_alignParentTop="true"
-            android:layout_weight="0.28" />
+            android:layout_weight="0.28" />-->
 
        <!-- <ImageView
             android:id="@+id/imageView1"

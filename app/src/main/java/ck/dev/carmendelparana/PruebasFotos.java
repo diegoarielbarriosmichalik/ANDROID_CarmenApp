@@ -18,21 +18,15 @@ import java.net.URL;
 
 public class PruebasFotos extends AppCompatActivity {
 
-    private static String APP_TAG = "ECTDownloadData";
     private static String IMG_URL = "http://municipalidaddecarmendelparana.com/fotos_carmen/1.png";
-    private static String IMG_URL2 = "http://municipalidaddecarmendelparana.com/fotos_carmen/2.png";
-    public Button btnDownload;
     public ImageView mImageView;
-    public ImageView mImageView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pruebas_fotos);
-       /* new DownloadImageTask().execute(IMG_URL);
-        mImageView = (ImageView) findViewById(R.id.mImageView);
-        new DownloadImageTask().execute(IMG_URL2);
-        mImageView2 = (ImageView) findViewById(R.id.mImageView2);*/
+     new DownloadImageTask().execute(IMG_URL);
+        mImageView = (ImageView) findViewById(R.id.mImageView1);
     }
 
 
@@ -58,7 +52,6 @@ public class PruebasFotos extends AppCompatActivity {
         }
         protected void onPostExecute(Bitmap result) {
             mImageView.setImageBitmap(result);
-            mImageView2.setImageBitmap(result);
         }
         private Bitmap downloadImagen(String baseUrl) {
             Bitmap myBitmap = null;

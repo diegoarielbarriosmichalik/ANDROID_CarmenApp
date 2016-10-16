@@ -8,24 +8,10 @@
     tools:context="ck.dev.carmendelparana.ScrollingActivityCarmenFotos"
     tools:showIn="@layout/activity_scrolling_carmen_fotos">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:id="@+id/imageView_Carmen_fotos1" />
 
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:id="@+id/imageView_Carmen_fotos2" />
-
-    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

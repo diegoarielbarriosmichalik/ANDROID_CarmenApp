@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_pruebas_fotos"
     android:layout_width="match_parent"
@@ -17,46 +18,39 @@
         android:layout_height="match_parent"
         android:weightSum="1">
 
-        <!--<ImageView
-            android:id="@+id/mImageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@string/img_descrip"
-            android:layout_alignParentTop="true" />-->
-
         <ImageView
             android:id="@+id/mImageView1"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@string/img_descrip"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.28" />
-        <ImageView
-            android:id="@+id/mImageView2"
             android:layout_width="match_parent"
-            android:layout_height="154dp"
+            android:layout_height="250dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/img_descrip"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.28" />
-        <ImageView
-            android:id="@+id/mImageView3"
-            android:layout_width="match_parent"
-            android:layout_height="154dp"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@string/img_descrip"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.28" />
-        <ImageView
-            android:id="@+id/mImageView4"
-            android:layout_width="match_parent"
-            android:layout_height="154dp"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@string/img_descrip"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.28" />
+            android:layout_alignParentTop="true" />
+
+
+        <!-- <ImageView
+             android:id="@+id/mImageView2"
+             android:layout_width="match_parent"
+             android:layout_height="154dp"
+             android:layout_centerHorizontal="true"
+             android:contentDescription="@string/img_descrip"
+             android:layout_alignParentTop="true"
+             android:layout_weight="0.28" />
+         <ImageView
+             android:id="@+id/mImageView3"
+             android:layout_width="match_parent"
+             android:layout_height="154dp"
+             android:layout_centerHorizontal="true"
+             android:contentDescription="@string/img_descrip"
+             android:layout_alignParentTop="true"
+             android:layout_weight="0.28" />
+         <ImageView
+             android:id="@+id/mImageView4"
+             android:layout_width="match_parent"
+             android:layout_height="154dp"
+             android:layout_centerHorizontal="true"
+             android:contentDescription="@string/img_descrip"
+             android:layout_alignParentTop="true"
+             android:layout_weight="0.28" />-->
 
     </LinearLayout>
 

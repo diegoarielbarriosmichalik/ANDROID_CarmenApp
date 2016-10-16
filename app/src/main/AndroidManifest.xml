@@ -95,7 +95,9 @@
         <activity
             android:name=".ScrollingActivityCarmenFotos"
             android:label="@string/title_activity_scrolling_carmen_fotos"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PruebasFotos_2" />
+        <activity android:name=".PruebasFotos3" />
     </application>
 
 </manifest>
