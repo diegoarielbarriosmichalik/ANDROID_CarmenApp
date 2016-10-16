@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void Lanzar_Activity_Carmen(MenuItem item) {
-        Intent intent = new Intent(this, Activity_carmen.class);
+        Intent intent = new Intent(this, ScrollingActivityCarmenFotos.class);
         startActivity(intent);
     }
 
@@ -243,6 +243,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = new Intent(this, ActivityEventos.class);
         startActivity(intent);
     }
+/*
+    public void Lanzar_Activity_CarmenFotos(MenuItem item) {
+        Intent intent = new Intent(this, Picasso.class);
+        startActivity(intent);
+    }*/
 
     public void Lanzar_Activity_Hoteles(MenuItem item) {
         Intent intent = new Intent(this, ScrollingActivityHoteles.class);

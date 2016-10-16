@@ -29,6 +29,10 @@
     <string name="title_activity_principal">ActivityPrincipal</string>
     <string name="title_activity_scrolling_hoteles">Alojamientos</string>
     <string name="title_activity_scrolling_eventos">ScrollingActivityEventos</string>
+    <string name="title_activity_carmen_fotos">ActivityCarmenFotos</string>
+    <string name="btn_download" />
+    <string name="img_descrip">img_descrip</string>
+    <string name="title_activity_scrolling_carmen_fotos">Carmen &lt;3</string>
 
 
 </resources>

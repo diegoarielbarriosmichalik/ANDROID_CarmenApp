@@ -87,6 +87,15 @@
             android:name=".ScrollingActivityHoteles"
             android:label="@string/title_activity_scrolling_hoteles"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PicassoSampleAdapter" />
+        <activity android:name=".SampleGridViewActivity" />
+        <activity android:name=".SampleGridViewAdapter" />
+        <activity android:name=".SampleScrollListener" />
+        <activity android:name=".PruebasFotos" />
+        <activity
+            android:name=".ScrollingActivityCarmenFotos"
+            android:label="@string/title_activity_scrolling_carmen_fotos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
