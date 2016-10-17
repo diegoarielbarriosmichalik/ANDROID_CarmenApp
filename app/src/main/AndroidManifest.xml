@@ -98,6 +98,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PruebasFotos_2" />
         <activity android:name=".PruebasFotos3" />
+        <activity android:name=".ActivityPublicidad"></activity>
     </application>
 
 </manifest>
